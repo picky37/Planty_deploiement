@@ -1,0 +1,386 @@
+/*
+Theme Name: BlankSlate Child
+Theme URI: https://github.com/tidythemes/blankslate
+Template: blankslate
+Author: TidyThemes
+Author URI: https://github.com/tidythemes
+Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,microformats,sticky-post,threaded-comments,translation-ready
+Version: 2023.1706179084
+Updated: 2024-01-25 10:38:04
+
+*/
+
+/* Header ////////////////////////////////////////////////////////////////////////////////////////*/
+
+#wrapper {
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.menu ul {
+    margin-right: 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 61px;
+    padding-left: 61px;
+    color: black;
+}
+
+/* .menu-item-35 a:hover{
+    font-weight: 700;
+} */
+
+.menu-item-35 a {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    width: 201px;
+    height: 30px;
+}
+
+.logo img {
+    width: 201px;
+    height: 19px;
+}
+
+.menu-item-34 {
+    background-color: #DC9F96;
+}
+
+.menu-item-34 a {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu-item-34:hover {
+    background-color: #C02E44;
+    transition: 0.5s;
+}
+
+
+@media screen and (max-width: 908px) {
+    #wrapper {
+        height: 190px;
+    }
+
+    #header {
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-top: 30px
+    }
+}
+
+@media screen and (max-width: 634px) {
+    #wrapper {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    #wrapper {
+        height: 360px;
+    }
+
+    #header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    #wrapper {
+        height: 360px;
+    }
+}
+
+/* Body ////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Footer ////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* #copyright{
+    display: flex;
+    justify-content: center;
+} */
+
+.mentions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+
+}
+
+/* Nous Rencontrer ////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 1500px) {
+    .wp-image-81 {
+        display: none !important;
+    }
+}
+
+
+/* .wpcf7-form-control .wpcf7-text .wpcf7-validates-as-required */
+
+.noe {
+    border-radius: 10px !important;
+    height: 71px;
+    width: 383px;
+    border: none;
+}
+
+.formulaire_nr textarea {
+    resize: none;
+    height: 237px;
+    width: 383px;
+}
+
+.img_formulaire {
+    margin-left: -360px;
+    margin-top: -210px;
+}
+
+.formulaire_nr p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.text_champ {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 10px;
+}
+
+.wpcf7-spinner {
+    display: none;
+    border-radius: 10px;
+}
+
+.formulaire_nr input[type="submit"] {
+    border-radius: 5px;
+    width: 198px;
+    height: 55px;
+    color: white;
+    background-color: #E0B9B4;
+    border: none;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.formulaire_nr input[type="submit"]:hover {
+    background-color: #C02E44;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 420px) {
+    .noe {
+        width: 250px;
+        justify-content: center;
+    }
+
+    .textarea_nr textarea {
+        width: 250px;
+    }
+
+    .img_formulaire {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .img_formulaire {
+        display: none;
+    }
+}
+
+
+/* Commander ////////////////////////////////////////////////////////////////////////////////////////*/
+
+.entry-title {
+    display: none;
+}
+
+/* test formulaire commande */
+
+.img_produits img {
+    width: 235px;
+    height: 128px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img_produits {
+    display: flex;
+    justify-content: center;
+}
+
+.compteur_individuel {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.compteur_individuel input[type="number"] {
+    width: 45px;
+    height: 59px;
+}
+
+
+
+.formulaire_commande {
+    display: flex;
+    justify-content: center;
+}
+
+.formulaire_gauche {
+    width: 400px;
+    height: 500px;
+}
+
+.formulaire_nom_gauche {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.formulaire_nom_droit {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.formulaire_droit {
+    width: 400px;
+    height: 500px;
+}
+
+.formulaire_input input[type="text"] {
+    border-radius: 10px;
+    height: 71px;
+    width: 383px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.separateur_2 {
+    width: 5px;
+    height: 430px;
+    border-left: solid 1px white;
+    margin-top: 40px;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.title label {
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+.title {
+    padding-bottom: 10px;
+}
+
+.bouton_envoyer input[type="submit"] {
+    border-radius: 5px;
+    width: 198px;
+    height: 55px;
+    color: white;
+    background-color: #E0B9B4;
+    border: none;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.bouton_envoyer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.bouton_envoyer input[type="submit"]:hover {
+    background-color: #C02E44;
+    transition: 0.5s;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .img_produits {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .formulaire_commande {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .separateur_2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .formulaire_input input[type="text"] {
+        width: 250px;
+    }
+}
